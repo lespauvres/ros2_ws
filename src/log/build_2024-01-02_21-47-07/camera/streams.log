@@ -1,0 +1,28 @@
+[0.039s] Invoking command in '/home/fishros/ros2_ws/src/build/camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fishros/ros2_ws/src/build/camera -- -j20 -l20
+[0.051s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.119s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.134s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.135s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.138s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.143s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.151s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.178s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.179s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.234s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.316s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.380s] -- Found image_transport: 3.1.7 (/opt/ros/humble/share/image_transport/cmake)
+[0.397s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.402s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.434s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+[0.434s]   ament_package_xml() package name 'camera' in '/package.xml' does not match
+[0.434s]   current PROJECT_NAME 'camera_display'.  You must call project() with the
+[0.434s]   same package name before.
+[0.434s] Call Stack (most recent call first):
+[0.434s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.434s]   CMakeLists.txt:39 (ament_lint_auto_find_test_dependencies)
+[0.434s] 
+[0.434s] [0m
+[0.434s] -- Configuring incomplete, errors occurred!
+[0.435s] See also "/home/fishros/ros2_ws/src/build/camera/CMakeFiles/CMakeOutput.log".
+[0.439s] gmake: *** [Makefile:226：cmake_check_build_system] 错误 1
+[0.441s] Invoked command in '/home/fishros/ros2_ws/src/build/camera' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fishros/ros2_ws/src/build/camera -- -j20 -l20

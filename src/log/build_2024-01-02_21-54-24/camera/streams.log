@@ -1,0 +1,26 @@
+[0.041s] Invoking command in '/home/fishros/ros2_ws/src/build/camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fishros/ros2_ws/src/build/camera -- -j20 -l20
+[0.062s] [35m[1mConsolidate compiler generated dependencies of target camera_display_node[0m
+[0.072s] [ 50%] [32mBuilding CXX object CMakeFiles/camera_display_node.dir/src/camera.cpp.o[0m
+[1.700s] [100%] [32m[1mLinking CXX executable camera_display_node[0m
+[1.906s] [100%] Built target camera_display_node
+[1.911s] Invoked command in '/home/fishros/ros2_ws/src/build/camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fishros/ros2_ws/src/build/camera -- -j20 -l20
+[1.927s] Invoking command in '/home/fishros/ros2_ws/src/build/camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fishros/ros2_ws/src/build/camera
+[1.930s] -- Install configuration: ""
+[1.930s] -- Installing: /home/fishros/ros2_ws/src/install/camera/lib/camera/camera_display_node
+[1.930s] -- Set runtime path of "/home/fishros/ros2_ws/src/install/camera/lib/camera/camera_display_node" to ""
+[1.930s] -- Up-to-date: /home/fishros/ros2_ws/src/install/camera/share/ament_index/resource_index/package_run_dependencies/camera
+[1.930s] -- Up-to-date: /home/fishros/ros2_ws/src/install/camera/share/ament_index/resource_index/parent_prefix_path/camera
+[1.930s] -- Up-to-date: /home/fishros/ros2_ws/src/install/camera/share/camera/environment/ament_prefix_path.sh
+[1.930s] -- Up-to-date: /home/fishros/ros2_ws/src/install/camera/share/camera/environment/ament_prefix_path.dsv
+[1.930s] -- Up-to-date: /home/fishros/ros2_ws/src/install/camera/share/camera/environment/path.sh
+[1.930s] -- Up-to-date: /home/fishros/ros2_ws/src/install/camera/share/camera/environment/path.dsv
+[1.930s] -- Up-to-date: /home/fishros/ros2_ws/src/install/camera/share/camera/local_setup.bash
+[1.930s] -- Up-to-date: /home/fishros/ros2_ws/src/install/camera/share/camera/local_setup.sh
+[1.931s] -- Up-to-date: /home/fishros/ros2_ws/src/install/camera/share/camera/local_setup.zsh
+[1.931s] -- Up-to-date: /home/fishros/ros2_ws/src/install/camera/share/camera/local_setup.dsv
+[1.931s] -- Installing: /home/fishros/ros2_ws/src/install/camera/share/camera/package.dsv
+[1.931s] -- Up-to-date: /home/fishros/ros2_ws/src/install/camera/share/ament_index/resource_index/packages/camera
+[1.931s] -- Up-to-date: /home/fishros/ros2_ws/src/install/camera/share/camera/cmake/cameraConfig.cmake
+[1.931s] -- Up-to-date: /home/fishros/ros2_ws/src/install/camera/share/camera/cmake/cameraConfig-version.cmake
+[1.931s] -- Up-to-date: /home/fishros/ros2_ws/src/install/camera/share/camera/package.xml
+[1.931s] Invoked command in '/home/fishros/ros2_ws/src/build/camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fishros/ros2_ws/src/build/camera

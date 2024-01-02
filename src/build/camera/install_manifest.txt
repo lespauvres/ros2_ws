@@ -1,0 +1,16 @@
+/home/fishros/ros2_ws/src/install/camera/lib/camera/camera_display_node
+/home/fishros/ros2_ws/src/install/camera/share/ament_index/resource_index/package_run_dependencies/camera
+/home/fishros/ros2_ws/src/install/camera/share/ament_index/resource_index/parent_prefix_path/camera
+/home/fishros/ros2_ws/src/install/camera/share/camera/environment/ament_prefix_path.sh
+/home/fishros/ros2_ws/src/install/camera/share/camera/environment/ament_prefix_path.dsv
+/home/fishros/ros2_ws/src/install/camera/share/camera/environment/path.sh
+/home/fishros/ros2_ws/src/install/camera/share/camera/environment/path.dsv
+/home/fishros/ros2_ws/src/install/camera/share/camera/local_setup.bash
+/home/fishros/ros2_ws/src/install/camera/share/camera/local_setup.sh
+/home/fishros/ros2_ws/src/install/camera/share/camera/local_setup.zsh
+/home/fishros/ros2_ws/src/install/camera/share/camera/local_setup.dsv
+/home/fishros/ros2_ws/src/install/camera/share/camera/package.dsv
+/home/fishros/ros2_ws/src/install/camera/share/ament_index/resource_index/packages/camera
+/home/fishros/ros2_ws/src/install/camera/share/camera/cmake/cameraConfig.cmake
+/home/fishros/ros2_ws/src/install/camera/share/camera/cmake/cameraConfig-version.cmake
+/home/fishros/ros2_ws/src/install/camera/share/camera/package.xml

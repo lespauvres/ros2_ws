@@ -1,0 +1,10 @@
+/home/fishros/ros2_ws/src/build/camera/CMakeFiles/uninstall.dir
+/home/fishros/ros2_ws/src/build/camera/CMakeFiles/camera_uninstall.dir
+/home/fishros/ros2_ws/src/build/camera/CMakeFiles/camera_display_node.dir
+/home/fishros/ros2_ws/src/build/camera/CMakeFiles/test.dir
+/home/fishros/ros2_ws/src/build/camera/CMakeFiles/edit_cache.dir
+/home/fishros/ros2_ws/src/build/camera/CMakeFiles/rebuild_cache.dir
+/home/fishros/ros2_ws/src/build/camera/CMakeFiles/list_install_components.dir
+/home/fishros/ros2_ws/src/build/camera/CMakeFiles/install.dir
+/home/fishros/ros2_ws/src/build/camera/CMakeFiles/install/local.dir
+/home/fishros/ros2_ws/src/build/camera/CMakeFiles/install/strip.dir
