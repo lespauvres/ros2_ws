@@ -31,6 +31,11 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig-version.cmake"
   "/opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake"
   "/opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake"
+  "/opt/ros/humble/share/ament_cmake_copyright/cmake/ament_cmake_copyright-extras.cmake"
+  "/opt/ros/humble/share/ament_cmake_copyright/cmake/ament_cmake_copyrightConfig-version.cmake"
+  "/opt/ros/humble/share/ament_cmake_copyright/cmake/ament_cmake_copyrightConfig.cmake"
+  "/opt/ros/humble/share/ament_cmake_copyright/cmake/ament_cmake_copyright_lint_hook.cmake"
+  "/opt/ros/humble/share/ament_cmake_copyright/cmake/ament_copyright.cmake"
   "/opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake"
   "/opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig-version.cmake"
   "/opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake"
@@ -693,7 +698,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake"
   "/usr/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake"
   "/usr/share/cmake-3.22/Modules/CheckCSourceCompiles.cmake"
-  "/usr/share/cmake-3.22/Modules/CheckIncludeFile.c.in"
   "/usr/share/cmake-3.22/Modules/CheckIncludeFile.cmake"
   "/usr/share/cmake-3.22/Modules/CheckLibraryExists.cmake"
   "/usr/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
@@ -748,4 +752,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/uninstall.dir/DependInfo.cmake"
   "CMakeFiles/camera_uninstall.dir/DependInfo.cmake"
+  "CMakeFiles/camera_display_node.dir/DependInfo.cmake"
   )

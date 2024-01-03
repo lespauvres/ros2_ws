@@ -1,0 +1,44 @@
+[0.028s] Invoking command in '/home/fishros/ros2_ws/src/build/imodo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fishros/ros2_ws/src/build/imodo -- -j20 -l20
+[0.042s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.164s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.170s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.181s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.204s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.223s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.289s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.293s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.359s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.374s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.395s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.406s] -- Looking for pthread.h
+[0.441s] -- Looking for pthread.h - found
+[0.441s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.477s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.477s] -- Found Threads: TRUE  
+[0.581s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.662s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.713s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.748s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.748s] -- Configured cppcheck include dirs: 
+[0.748s] -- Configured cppcheck exclude dirs and/or files: 
+[0.748s] -- Added test 'lint_cmake' to check CMake code style
+[0.750s] -- Added test 'uncrustify' to check C / C++ code style
+[0.750s] -- Configured uncrustify additional arguments: 
+[0.750s] -- Added test 'xmllint' to check XML markup files
+[0.751s] -- Configuring done
+[0.752s] [31mCMake Error at CMakeLists.txt:13 (add_executable):
+[0.752s]   Cannot find source file:
+[0.752s] 
+[0.752s]     src/your_node_source.cpp
+[0.752s] 
+[0.752s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[0.752s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[0.752s] 
+[0.752s] [0m
+[0.753s] [31mCMake Error at CMakeLists.txt:13 (add_executable):
+[0.753s]   No SOURCES given to target: your_node_name
+[0.753s] 
+[0.753s] [0m
+[0.753s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.756s] gmake: *** [Makefile:226：cmake_check_build_system] 错误 1
+[0.758s] Invoked command in '/home/fishros/ros2_ws/src/build/imodo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fishros/ros2_ws/src/build/imodo -- -j20 -l20

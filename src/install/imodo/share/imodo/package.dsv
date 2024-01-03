@@ -1,0 +1,8 @@
+source;share/imodo/hook/cmake_prefix_path.ps1
+source;share/imodo/hook/cmake_prefix_path.dsv
+source;share/imodo/hook/cmake_prefix_path.sh
+source;share/imodo/local_setup.bash
+source;share/imodo/local_setup.dsv
+source;share/imodo/local_setup.ps1
+source;share/imodo/local_setup.sh
+source;share/imodo/local_setup.zsh

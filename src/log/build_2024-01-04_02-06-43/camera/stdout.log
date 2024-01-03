@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target camera_display_node[0m
+[100%] Built target camera_display_node
+-- Install configuration: ""
+-- Installing: /home/fishros/ros2_ws/src/install/camera/lib/camera/camera_display_node
+-- Set runtime path of "/home/fishros/ros2_ws/src/install/camera/lib/camera/camera_display_node" to ""
+-- Installing: /home/fishros/ros2_ws/src/install/camera/share/ament_index/resource_index/package_run_dependencies/camera
+-- Installing: /home/fishros/ros2_ws/src/install/camera/share/ament_index/resource_index/parent_prefix_path/camera
+-- Installing: /home/fishros/ros2_ws/src/install/camera/share/camera/environment/ament_prefix_path.sh
+-- Installing: /home/fishros/ros2_ws/src/install/camera/share/camera/environment/ament_prefix_path.dsv
+-- Installing: /home/fishros/ros2_ws/src/install/camera/share/camera/environment/path.sh
+-- Installing: /home/fishros/ros2_ws/src/install/camera/share/camera/environment/path.dsv
+-- Installing: /home/fishros/ros2_ws/src/install/camera/share/camera/local_setup.bash
+-- Installing: /home/fishros/ros2_ws/src/install/camera/share/camera/local_setup.sh
+-- Installing: /home/fishros/ros2_ws/src/install/camera/share/camera/local_setup.zsh
+-- Installing: /home/fishros/ros2_ws/src/install/camera/share/camera/local_setup.dsv
+-- Installing: /home/fishros/ros2_ws/src/install/camera/share/camera/package.dsv
+-- Installing: /home/fishros/ros2_ws/src/install/camera/share/ament_index/resource_index/packages/camera
+-- Installing: /home/fishros/ros2_ws/src/install/camera/share/camera/cmake/cameraConfig.cmake
+-- Installing: /home/fishros/ros2_ws/src/install/camera/share/camera/cmake/cameraConfig-version.cmake
+-- Installing: /home/fishros/ros2_ws/src/install/camera/share/camera/package.xml

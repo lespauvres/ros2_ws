@@ -1,0 +1,2 @@
+Invoking command in '/home/fishros/ros2_ws/build/show_imu': /usr/bin/cmake /home/fishros/ros2_ws/src/odo -DCMAKE_INSTALL_PREFIX=/home/fishros/ros2_ws/install/show_imu
+Invoked command in '/home/fishros/ros2_ws/build/show_imu' returned '1': /usr/bin/cmake /home/fishros/ros2_ws/src/odo -DCMAKE_INSTALL_PREFIX=/home/fishros/ros2_ws/install/show_imu

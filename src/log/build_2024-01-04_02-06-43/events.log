@@ -1,0 +1,154 @@
+[0.000000] (-) TimerEvent: {}
+[0.000081] (camera) JobQueued: {'identifier': 'camera', 'dependencies': OrderedDict()}
+[0.000097] (imodo) JobQueued: {'identifier': 'imodo', 'dependencies': OrderedDict()}
+[0.000106] (camera) JobStarted: {'identifier': 'camera'}
+[0.026178] (imodo) JobStarted: {'identifier': 'imodo'}
+[0.053208] (camera) JobProgress: {'identifier': 'camera', 'progress': 'cmake'}
+[0.053892] (camera) JobProgress: {'identifier': 'camera', 'progress': 'build'}
+[0.053962] (camera) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fishros/ros2_ws/src/build/camera', '--', '-j20', '-l20'], 'cwd': '/home/fishros/ros2_ws/src/build/camera', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'fishros'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fishros'), ('OLDPWD', '/home/fishros/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1317'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=968a07e9e721328b42d65fd96595f06f'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7890/'), ('COLCON_PREFIX_PATH', '/home/fishros/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fishros'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fishros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/fishros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fishros-linux:@/tmp/.ICE-unix/1317,unix/fishros-linux:/tmp/.ICE-unix/1317'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e0d2d7ee_ce08_4a3d_8c24_3fbdce0d0104'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.237BH2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.531'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fishros/ros2_ws/install/imodo:/home/fishros/ros2_ws/install/camera:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fishros/ros2_ws/src/build/camera'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=968a07e9e721328b42d65fd96595f06f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fishros/ros2_ws/install/imodo:/home/fishros/ros2_ws/install/camera:/opt/ros/humble')]), 'shell': False}
+[0.055715] (imodo) JobProgress: {'identifier': 'imodo', 'progress': 'cmake'}
+[0.057112] (imodo) JobProgress: {'identifier': 'imodo', 'progress': 'build'}
+[0.057123] (imodo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fishros/ros2_ws/src/build/imodo', '--', '-j20', '-l20'], 'cwd': '/home/fishros/ros2_ws/src/build/imodo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'fishros'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fishros'), ('OLDPWD', '/home/fishros/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1317'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=968a07e9e721328b42d65fd96595f06f'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7890/'), ('COLCON_PREFIX_PATH', '/home/fishros/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fishros'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fishros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/fishros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fishros-linux:@/tmp/.ICE-unix/1317,unix/fishros-linux:/tmp/.ICE-unix/1317'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e0d2d7ee_ce08_4a3d_8c24_3fbdce0d0104'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.237BH2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.531'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fishros/ros2_ws/install/imodo:/home/fishros/ros2_ws/install/camera:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fishros/ros2_ws/src/build/imodo'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=968a07e9e721328b42d65fd96595f06f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fishros/ros2_ws/install/imodo:/home/fishros/ros2_ws/install/camera:/opt/ros/humble')]), 'shell': False}
+[0.068967] (imodo) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.075233] (camera) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target camera_display_node\x1b[0m\n'}
+[0.083404] (camera) StdoutLine: {'line': b'[100%] Built target camera_display_node\n'}
+[0.089388] (camera) CommandEnded: {'returncode': 0}
+[0.099267] (camera) JobProgress: {'identifier': 'camera', 'progress': 'install'}
+[0.099327] (-) TimerEvent: {}
+[0.103292] (camera) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/fishros/ros2_ws/src/build/camera'], 'cwd': '/home/fishros/ros2_ws/src/build/camera', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'fishros'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fishros'), ('OLDPWD', '/home/fishros/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1317'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=968a07e9e721328b42d65fd96595f06f'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7890/'), ('COLCON_PREFIX_PATH', '/home/fishros/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fishros'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fishros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/fishros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fishros-linux:@/tmp/.ICE-unix/1317,unix/fishros-linux:/tmp/.ICE-unix/1317'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e0d2d7ee_ce08_4a3d_8c24_3fbdce0d0104'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.237BH2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.531'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fishros/ros2_ws/install/imodo:/home/fishros/ros2_ws/install/camera:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fishros/ros2_ws/src/build/camera'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=968a07e9e721328b42d65fd96595f06f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fishros/ros2_ws/install/imodo:/home/fishros/ros2_ws/install/camera:/opt/ros/humble')]), 'shell': False}
+[0.107486] (camera) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.107575] (camera) StdoutLine: {'line': b'-- Installing: /home/fishros/ros2_ws/src/install/camera/lib/camera/camera_display_node\n'}
+[0.107731] (camera) StdoutLine: {'line': b'-- Set runtime path of "/home/fishros/ros2_ws/src/install/camera/lib/camera/camera_display_node" to ""\n'}
+[0.107892] (camera) StdoutLine: {'line': b'-- Installing: /home/fishros/ros2_ws/src/install/camera/share/ament_index/resource_index/package_run_dependencies/camera\n'}
+[0.108570] (camera) StdoutLine: {'line': b'-- Installing: /home/fishros/ros2_ws/src/install/camera/share/ament_index/resource_index/parent_prefix_path/camera\n'}
+[0.108751] (camera) StdoutLine: {'line': b'-- Installing: /home/fishros/ros2_ws/src/install/camera/share/camera/environment/ament_prefix_path.sh\n'}
+[0.108801] (camera) StdoutLine: {'line': b'-- Installing: /home/fishros/ros2_ws/src/install/camera/share/camera/environment/ament_prefix_path.dsv\n'}
+[0.109502] (camera) StdoutLine: {'line': b'-- Installing: /home/fishros/ros2_ws/src/install/camera/share/camera/environment/path.sh\n'}
+[0.109553] (camera) StdoutLine: {'line': b'-- Installing: /home/fishros/ros2_ws/src/install/camera/share/camera/environment/path.dsv\n'}
+[0.109720] (camera) StdoutLine: {'line': b'-- Installing: /home/fishros/ros2_ws/src/install/camera/share/camera/local_setup.bash\n'}
+[0.110415] (camera) StdoutLine: {'line': b'-- Installing: /home/fishros/ros2_ws/src/install/camera/share/camera/local_setup.sh\n'}
+[0.110868] (camera) StdoutLine: {'line': b'-- Installing: /home/fishros/ros2_ws/src/install/camera/share/camera/local_setup.zsh\n'}
+[0.111132] (camera) StdoutLine: {'line': b'-- Installing: /home/fishros/ros2_ws/src/install/camera/share/camera/local_setup.dsv\n'}
+[0.111553] (camera) StdoutLine: {'line': b'-- Installing: /home/fishros/ros2_ws/src/install/camera/share/camera/package.dsv\n'}
+[0.112193] (camera) StdoutLine: {'line': b'-- Installing: /home/fishros/ros2_ws/src/install/camera/share/ament_index/resource_index/packages/camera\n'}
+[0.112269] (camera) StdoutLine: {'line': b'-- Installing: /home/fishros/ros2_ws/src/install/camera/share/camera/cmake/cameraConfig.cmake\n'}
+[0.112493] (camera) StdoutLine: {'line': b'-- Installing: /home/fishros/ros2_ws/src/install/camera/share/camera/cmake/cameraConfig-version.cmake\n'}
+[0.113161] (camera) StdoutLine: {'line': b'-- Installing: /home/fishros/ros2_ws/src/install/camera/share/camera/package.xml\n'}
+[0.113987] (camera) CommandEnded: {'returncode': 0}
+[0.157276] (imodo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.158189] (imodo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.160992] (imodo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.166827] (imodo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.174047] (imodo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.182183] (camera) JobEnded: {'identifier': 'camera', 'rc': 0}
+[0.199537] (-) TimerEvent: {}
+[0.202590] (imodo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.203263] (imodo) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.258079] (imodo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.299776] (-) TimerEvent: {}
+[0.336652] (imodo) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.400018] (-) TimerEvent: {}
+[0.401476] (imodo) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.446181] (imodo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.479689] (imodo) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.479829] (imodo) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.479886] (imodo) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.480000] (imodo) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.480174] (imodo) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.480249] (imodo) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.480381] (imodo) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.480468] (imodo) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.487768] (imodo) StdoutLine: {'line': b'-- Generating done\n'}
+[0.490049] (imodo) StdoutLine: {'line': b'-- Build files have been written to: /home/fishros/ros2_ws/src/build/imodo\n'}
+[0.500177] (-) TimerEvent: {}
+[0.506557] (imodo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/imodo.dir/src/imodo.cpp.o\x1b[0m\n'}
+[0.600520] (-) TimerEvent: {}
+[0.700919] (-) TimerEvent: {}
+[0.801216] (-) TimerEvent: {}
+[0.901604] (-) TimerEvent: {}
+[1.001991] (-) TimerEvent: {}
+[1.102384] (-) TimerEvent: {}
+[1.202666] (-) TimerEvent: {}
+[1.302889] (-) TimerEvent: {}
+[1.403142] (-) TimerEvent: {}
+[1.503409] (-) TimerEvent: {}
+[1.603738] (-) TimerEvent: {}
+[1.704004] (-) TimerEvent: {}
+[1.804319] (-) TimerEvent: {}
+[1.904647] (-) TimerEvent: {}
+[2.004876] (-) TimerEvent: {}
+[2.105198] (-) TimerEvent: {}
+[2.205528] (-) TimerEvent: {}
+[2.305850] (-) TimerEvent: {}
+[2.406200] (-) TimerEvent: {}
+[2.506464] (-) TimerEvent: {}
+[2.606708] (-) TimerEvent: {}
+[2.706968] (-) TimerEvent: {}
+[2.807178] (-) TimerEvent: {}
+[2.907439] (-) TimerEvent: {}
+[3.007767] (-) TimerEvent: {}
+[3.108137] (-) TimerEvent: {}
+[3.208509] (-) TimerEvent: {}
+[3.308835] (-) TimerEvent: {}
+[3.409148] (-) TimerEvent: {}
+[3.509400] (-) TimerEvent: {}
+[3.609716] (-) TimerEvent: {}
+[3.710043] (-) TimerEvent: {}
+[3.810355] (-) TimerEvent: {}
+[3.910558] (-) TimerEvent: {}
+[4.010826] (-) TimerEvent: {}
+[4.111137] (-) TimerEvent: {}
+[4.211442] (-) TimerEvent: {}
+[4.311750] (-) TimerEvent: {}
+[4.412060] (-) TimerEvent: {}
+[4.512379] (-) TimerEvent: {}
+[4.612692] (-) TimerEvent: {}
+[4.712902] (-) TimerEvent: {}
+[4.813219] (-) TimerEvent: {}
+[4.913538] (-) TimerEvent: {}
+[5.013848] (-) TimerEvent: {}
+[5.114239] (-) TimerEvent: {}
+[5.214657] (-) TimerEvent: {}
+[5.315101] (-) TimerEvent: {}
+[5.415526] (-) TimerEvent: {}
+[5.516029] (-) TimerEvent: {}
+[5.616508] (-) TimerEvent: {}
+[5.716852] (-) TimerEvent: {}
+[5.817097] (-) TimerEvent: {}
+[5.917431] (-) TimerEvent: {}
+[6.017731] (-) TimerEvent: {}
+[6.118071] (-) TimerEvent: {}
+[6.120133] (imodo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable imodo\x1b[0m\n'}
+[6.218195] (-) TimerEvent: {}
+[6.318478] (-) TimerEvent: {}
+[6.373251] (imodo) StdoutLine: {'line': b'[100%] Built target imodo\n'}
+[6.379482] (imodo) CommandEnded: {'returncode': 0}
+[6.390494] (imodo) JobProgress: {'identifier': 'imodo', 'progress': 'install'}
+[6.391097] (imodo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/fishros/ros2_ws/src/build/imodo'], 'cwd': '/home/fishros/ros2_ws/src/build/imodo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'fishros'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fishros'), ('OLDPWD', '/home/fishros/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1317'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=968a07e9e721328b42d65fd96595f06f'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7890/'), ('COLCON_PREFIX_PATH', '/home/fishros/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fishros'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fishros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/fishros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fishros-linux:@/tmp/.ICE-unix/1317,unix/fishros-linux:/tmp/.ICE-unix/1317'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e0d2d7ee_ce08_4a3d_8c24_3fbdce0d0104'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.237BH2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.531'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fishros/ros2_ws/install/imodo:/home/fishros/ros2_ws/install/camera:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fishros/ros2_ws/src/build/imodo'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=968a07e9e721328b42d65fd96595f06f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fishros/ros2_ws/install/imodo:/home/fishros/ros2_ws/install/camera:/opt/ros/humble')]), 'shell': False}
+[6.394466] (imodo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.394531] (imodo) StdoutLine: {'line': b'-- Installing: /home/fishros/ros2_ws/src/install/imodo/share/ament_index/resource_index/package_run_dependencies/imodo\n'}
+[6.394583] (imodo) StdoutLine: {'line': b'-- Installing: /home/fishros/ros2_ws/src/install/imodo/share/ament_index/resource_index/parent_prefix_path/imodo\n'}
+[6.394616] (imodo) StdoutLine: {'line': b'-- Installing: /home/fishros/ros2_ws/src/install/imodo/share/imodo/environment/ament_prefix_path.sh\n'}
+[6.394728] (imodo) StdoutLine: {'line': b'-- Installing: /home/fishros/ros2_ws/src/install/imodo/share/imodo/environment/ament_prefix_path.dsv\n'}
+[6.394787] (imodo) StdoutLine: {'line': b'-- Installing: /home/fishros/ros2_ws/src/install/imodo/share/imodo/environment/path.sh\n'}
+[6.394816] (imodo) StdoutLine: {'line': b'-- Installing: /home/fishros/ros2_ws/src/install/imodo/share/imodo/environment/path.dsv\n'}
+[6.394858] (imodo) StdoutLine: {'line': b'-- Installing: /home/fishros/ros2_ws/src/install/imodo/share/imodo/local_setup.bash\n'}
+[6.394889] (imodo) StdoutLine: {'line': b'-- Installing: /home/fishros/ros2_ws/src/install/imodo/share/imodo/local_setup.sh\n'}
+[6.394912] (imodo) StdoutLine: {'line': b'-- Installing: /home/fishros/ros2_ws/src/install/imodo/share/imodo/local_setup.zsh\n'}
+[6.394933] (imodo) StdoutLine: {'line': b'-- Installing: /home/fishros/ros2_ws/src/install/imodo/share/imodo/local_setup.dsv\n'}
+[6.394956] (imodo) StdoutLine: {'line': b'-- Installing: /home/fishros/ros2_ws/src/install/imodo/share/imodo/package.dsv\n'}
+[6.394990] (imodo) StdoutLine: {'line': b'-- Installing: /home/fishros/ros2_ws/src/install/imodo/share/ament_index/resource_index/packages/imodo\n'}
+[6.395021] (imodo) StdoutLine: {'line': b'-- Installing: /home/fishros/ros2_ws/src/install/imodo/share/imodo/cmake/imodoConfig.cmake\n'}
+[6.395055] (imodo) StdoutLine: {'line': b'-- Installing: /home/fishros/ros2_ws/src/install/imodo/share/imodo/cmake/imodoConfig-version.cmake\n'}
+[6.395078] (imodo) StdoutLine: {'line': b'-- Installing: /home/fishros/ros2_ws/src/install/imodo/share/imodo/package.xml\n'}
+[6.395723] (imodo) CommandEnded: {'returncode': 0}
+[6.418528] (-) TimerEvent: {}
+[6.518908] (-) TimerEvent: {}
+[6.619232] (-) TimerEvent: {}
+[6.719671] (-) TimerEvent: {}
+[6.820126] (-) TimerEvent: {}
+[6.920613] (-) TimerEvent: {}
+[7.021105] (-) TimerEvent: {}
+[7.121594] (-) TimerEvent: {}
+[7.127274] (imodo) JobEnded: {'identifier': 'imodo', 'rc': 0}
+[7.128025] (-) EventReactorShutdown: {}

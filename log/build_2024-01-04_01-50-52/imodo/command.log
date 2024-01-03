@@ -1,0 +1,6 @@
+Invoking command in '/home/fishros/ros2_ws/build/imodo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/fishros/ros2_ws/src/imodo -DCMAKE_INSTALL_PREFIX=/home/fishros/ros2_ws/install/imodo
+Invoked command in '/home/fishros/ros2_ws/build/imodo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/fishros/ros2_ws/src/imodo -DCMAKE_INSTALL_PREFIX=/home/fishros/ros2_ws/install/imodo
+Invoking command in '/home/fishros/ros2_ws/build/imodo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fishros/ros2_ws/build/imodo -- -j20 -l20
+Invoked command in '/home/fishros/ros2_ws/build/imodo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fishros/ros2_ws/build/imodo -- -j20 -l20
+Invoking command in '/home/fishros/ros2_ws/build/imodo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fishros/ros2_ws/build/imodo
+Invoked command in '/home/fishros/ros2_ws/build/imodo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fishros/ros2_ws/build/imodo
