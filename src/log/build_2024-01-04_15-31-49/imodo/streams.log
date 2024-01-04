@@ -1,0 +1,25 @@
+[0.596s] Invoking command in '/home/fishros/ros2_ws/src/build/imodo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /home/fishros/ros2_ws/src/build/imodo -- -j20 -l20
+[0.621s] [100%] Built target imodo
+[0.626s] Invoked command in '/home/fishros/ros2_ws/src/build/imodo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /home/fishros/ros2_ws/src/build/imodo -- -j20 -l20
+[0.640s] Invoking command in '/home/fishros/ros2_ws/src/build/imodo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --install /home/fishros/ros2_ws/src/build/imodo
+[0.643s] -- Install configuration: ""
+[0.643s] -- Installing: /home/fishros/ros2_ws/src/install/imodo/lib/imodo/imodo
+[0.648s] -- Set runtime path of "/home/fishros/ros2_ws/src/install/imodo/lib/imodo/imodo" to ""
+[0.648s] -- Installing: /home/fishros/ros2_ws/src/install/imodo/share/imodo/launch
+[0.648s] -- Installing: /home/fishros/ros2_ws/src/install/imodo/share/imodo/package.xml
+[0.648s] -- Installing: /home/fishros/ros2_ws/src/install/imodo/share/ament_index/resource_index/package_run_dependencies/imodo
+[0.648s] -- Installing: /home/fishros/ros2_ws/src/install/imodo/share/ament_index/resource_index/parent_prefix_path/imodo
+[0.648s] -- Installing: /home/fishros/ros2_ws/src/install/imodo/share/imodo/environment/ament_prefix_path.sh
+[0.648s] -- Installing: /home/fishros/ros2_ws/src/install/imodo/share/imodo/environment/ament_prefix_path.dsv
+[0.648s] -- Installing: /home/fishros/ros2_ws/src/install/imodo/share/imodo/environment/path.sh
+[0.648s] -- Installing: /home/fishros/ros2_ws/src/install/imodo/share/imodo/environment/path.dsv
+[0.648s] -- Installing: /home/fishros/ros2_ws/src/install/imodo/share/imodo/local_setup.bash
+[0.648s] -- Installing: /home/fishros/ros2_ws/src/install/imodo/share/imodo/local_setup.sh
+[0.648s] -- Installing: /home/fishros/ros2_ws/src/install/imodo/share/imodo/local_setup.zsh
+[0.648s] -- Installing: /home/fishros/ros2_ws/src/install/imodo/share/imodo/local_setup.dsv
+[0.648s] -- Installing: /home/fishros/ros2_ws/src/install/imodo/share/imodo/package.dsv
+[0.648s] -- Installing: /home/fishros/ros2_ws/src/install/imodo/share/ament_index/resource_index/packages/imodo
+[0.649s] -- Installing: /home/fishros/ros2_ws/src/install/imodo/share/imodo/cmake/imodoConfig.cmake
+[0.649s] -- Installing: /home/fishros/ros2_ws/src/install/imodo/share/imodo/cmake/imodoConfig-version.cmake
+[0.649s] -- Up-to-date: /home/fishros/ros2_ws/src/install/imodo/share/imodo/package.xml
+[0.669s] Invoked command in '/home/fishros/ros2_ws/src/build/imodo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --install /home/fishros/ros2_ws/src/build/imodo
