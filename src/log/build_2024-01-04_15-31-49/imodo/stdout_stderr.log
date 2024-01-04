@@ -1,0 +1,21 @@
+[100%] Built target imodo
+-- Install configuration: ""
+-- Installing: /home/fishros/ros2_ws/src/install/imodo/lib/imodo/imodo
+-- Set runtime path of "/home/fishros/ros2_ws/src/install/imodo/lib/imodo/imodo" to ""
+-- Installing: /home/fishros/ros2_ws/src/install/imodo/share/imodo/launch
+-- Installing: /home/fishros/ros2_ws/src/install/imodo/share/imodo/package.xml
+-- Installing: /home/fishros/ros2_ws/src/install/imodo/share/ament_index/resource_index/package_run_dependencies/imodo
+-- Installing: /home/fishros/ros2_ws/src/install/imodo/share/ament_index/resource_index/parent_prefix_path/imodo
+-- Installing: /home/fishros/ros2_ws/src/install/imodo/share/imodo/environment/ament_prefix_path.sh
+-- Installing: /home/fishros/ros2_ws/src/install/imodo/share/imodo/environment/ament_prefix_path.dsv
+-- Installing: /home/fishros/ros2_ws/src/install/imodo/share/imodo/environment/path.sh
+-- Installing: /home/fishros/ros2_ws/src/install/imodo/share/imodo/environment/path.dsv
+-- Installing: /home/fishros/ros2_ws/src/install/imodo/share/imodo/local_setup.bash
+-- Installing: /home/fishros/ros2_ws/src/install/imodo/share/imodo/local_setup.sh
+-- Installing: /home/fishros/ros2_ws/src/install/imodo/share/imodo/local_setup.zsh
+-- Installing: /home/fishros/ros2_ws/src/install/imodo/share/imodo/local_setup.dsv
+-- Installing: /home/fishros/ros2_ws/src/install/imodo/share/imodo/package.dsv
+-- Installing: /home/fishros/ros2_ws/src/install/imodo/share/ament_index/resource_index/packages/imodo
+-- Installing: /home/fishros/ros2_ws/src/install/imodo/share/imodo/cmake/imodoConfig.cmake
+-- Installing: /home/fishros/ros2_ws/src/install/imodo/share/imodo/cmake/imodoConfig-version.cmake
+-- Up-to-date: /home/fishros/ros2_ws/src/install/imodo/share/imodo/package.xml
