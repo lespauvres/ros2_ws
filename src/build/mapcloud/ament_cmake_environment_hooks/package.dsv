@@ -1,0 +1,4 @@
+source;share/mapcloud/local_setup.bash
+source;share/mapcloud/local_setup.dsv
+source;share/mapcloud/local_setup.sh
+source;share/mapcloud/local_setup.zsh

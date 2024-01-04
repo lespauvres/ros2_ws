@@ -1,0 +1,4 @@
+-- Found ament_cmake: 2.3.0 (/opt/ros/rolling/share/ament_cmake/cmake)
+-- Found rclcpp: 23.2.0 (/opt/ros/rolling/share/rclcpp/cmake)
+-- Configuring incomplete, errors occurred!
+See also "/home/fishros/ros2_ws/src/build/mapcloud/CMakeFiles/CMakeOutput.log".

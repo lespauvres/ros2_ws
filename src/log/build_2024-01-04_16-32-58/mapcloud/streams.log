@@ -1,0 +1,276 @@
+[0.029s] Invoking command in '/home/fishros/ros2_ws/src/build/mapcloud': /usr/bin/cmake --build /home/fishros/ros2_ws/src/build/mapcloud -- -j20 -l20
+[0.041s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.041s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.041s]   contain a literal, direct call to the project() command.  Add a line of
+[0.041s]   code such as
+[0.041s] 
+[0.041s]     project(ProjectName)
+[0.041s] 
+[0.041s]   near the top of the file, but after cmake_minimum_required().
+[0.041s] 
+[0.041s]   CMake is pretending there is a "project(Project)" command on the first
+[0.041s]   line.
+[0.041s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.041s] [0m
+[0.044s] -- Found ament_cmake: 2.3.0 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.091s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPython/Support.cmake:1831 (list):
+[0.091s]   Policy CMP0007 is not set: list command no longer ignores empty elements.
+[0.091s]   Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy
+[0.092s]   command to set the policy and suppress this warning.  List has value =
+[0.092s]   [Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages].
+[0.092s] Call Stack (most recent call first):
+[0.092s]   /usr/share/cmake-3.22/Modules/FindPython3.cmake:490 (include)
+[0.092s]   /opt/ros/rolling/share/ament_cmake_core/cmake/core/python.cmake:21 (find_package)
+[0.093s]   /opt/ros/rolling/share/ament_cmake_core/cmake/core/all.cmake:55 (include)
+[0.093s]   /opt/ros/rolling/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.093s]   /opt/ros/rolling/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.094s]   /opt/ros/rolling/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.094s]   /opt/ros/rolling/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.094s]   CMakeLists.txt:2 (find_package)
+[0.094s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.095s] [0m
+[0.095s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPython/Support.cmake:1833 (list):
+[0.095s]   Policy CMP0007 is not set: list command no longer ignores empty elements.
+[0.095s]   Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy
+[0.095s]   command to set the policy and suppress this warning.  List has value =
+[0.096s]   [Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages].
+[0.096s] Call Stack (most recent call first):
+[0.096s]   /usr/share/cmake-3.22/Modules/FindPython3.cmake:490 (include)
+[0.096s]   /opt/ros/rolling/share/ament_cmake_core/cmake/core/python.cmake:21 (find_package)
+[0.096s]   /opt/ros/rolling/share/ament_cmake_core/cmake/core/all.cmake:55 (include)
+[0.096s]   /opt/ros/rolling/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.097s]   /opt/ros/rolling/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.097s]   /opt/ros/rolling/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.097s]   /opt/ros/rolling/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.097s]   CMakeLists.txt:2 (find_package)
+[0.097s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.098s] [0m
+[0.098s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPython/Support.cmake:1834 (list):
+[0.098s]   Policy CMP0007 is not set: list command no longer ignores empty elements.
+[0.098s]   Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy
+[0.098s]   command to set the policy and suppress this warning.  List has value =
+[0.098s]   [Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages].
+[0.098s] Call Stack (most recent call first):
+[0.098s]   /usr/share/cmake-3.22/Modules/FindPython3.cmake:490 (include)
+[0.098s]   /opt/ros/rolling/share/ament_cmake_core/cmake/core/python.cmake:21 (find_package)
+[0.098s]   /opt/ros/rolling/share/ament_cmake_core/cmake/core/all.cmake:55 (include)
+[0.098s]   /opt/ros/rolling/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.098s]   /opt/ros/rolling/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.098s]   /opt/ros/rolling/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.098s]   /opt/ros/rolling/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.099s]   CMakeLists.txt:2 (find_package)
+[0.099s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.099s] [0m
+[0.099s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPython/Support.cmake:1835 (list):
+[0.099s]   Policy CMP0007 is not set: list command no longer ignores empty elements.
+[0.099s]   Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy
+[0.099s]   command to set the policy and suppress this warning.  List has value =
+[0.099s]   [Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages].
+[0.099s] Call Stack (most recent call first):
+[0.099s]   /usr/share/cmake-3.22/Modules/FindPython3.cmake:490 (include)
+[0.099s]   /opt/ros/rolling/share/ament_cmake_core/cmake/core/python.cmake:21 (find_package)
+[0.099s]   /opt/ros/rolling/share/ament_cmake_core/cmake/core/all.cmake:55 (include)
+[0.099s]   /opt/ros/rolling/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.099s]   /opt/ros/rolling/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.099s]   /opt/ros/rolling/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.099s]   /opt/ros/rolling/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.099s]   CMakeLists.txt:2 (find_package)
+[0.099s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.100s] [0m
+[0.100s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPython/Support.cmake:1837 (list):
+[0.100s]   Policy CMP0007 is not set: list command no longer ignores empty elements.
+[0.100s]   Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy
+[0.100s]   command to set the policy and suppress this warning.  List has value =
+[0.100s]   [Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages].
+[0.100s] Call Stack (most recent call first):
+[0.100s]   /usr/share/cmake-3.22/Modules/FindPython3.cmake:490 (include)
+[0.100s]   /opt/ros/rolling/share/ament_cmake_core/cmake/core/python.cmake:21 (find_package)
+[0.100s]   /opt/ros/rolling/share/ament_cmake_core/cmake/core/all.cmake:55 (include)
+[0.100s]   /opt/ros/rolling/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.100s]   /opt/ros/rolling/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.101s]   /opt/ros/rolling/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.101s]   /opt/ros/rolling/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.101s]   CMakeLists.txt:2 (find_package)
+[0.101s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.101s] [0m
+[0.101s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPython/Support.cmake:1840 (list):
+[0.101s]   Policy CMP0007 is not set: list command no longer ignores empty elements.
+[0.101s]   Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy
+[0.101s]   command to set the policy and suppress this warning.  List has value =
+[0.101s]   [Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages].
+[0.101s] Call Stack (most recent call first):
+[0.101s]   /usr/share/cmake-3.22/Modules/FindPython3.cmake:490 (include)
+[0.102s]   /opt/ros/rolling/share/ament_cmake_core/cmake/core/python.cmake:21 (find_package)
+[0.102s]   /opt/ros/rolling/share/ament_cmake_core/cmake/core/all.cmake:55 (include)
+[0.102s]   /opt/ros/rolling/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.102s]   /opt/ros/rolling/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.102s]   /opt/ros/rolling/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.102s]   /opt/ros/rolling/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.102s]   CMakeLists.txt:2 (find_package)
+[0.102s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.102s] [0m
+[0.102s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPython/Support.cmake:1841 (list):
+[0.102s]   Policy CMP0007 is not set: list command no longer ignores empty elements.
+[0.102s]   Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy
+[0.103s]   command to set the policy and suppress this warning.  List has value =
+[0.103s]   [Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages].
+[0.103s] Call Stack (most recent call first):
+[0.103s]   /usr/share/cmake-3.22/Modules/FindPython3.cmake:490 (include)
+[0.103s]   /opt/ros/rolling/share/ament_cmake_core/cmake/core/python.cmake:21 (find_package)
+[0.103s]   /opt/ros/rolling/share/ament_cmake_core/cmake/core/all.cmake:55 (include)
+[0.103s]   /opt/ros/rolling/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.103s]   /opt/ros/rolling/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.104s]   /opt/ros/rolling/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.104s]   /opt/ros/rolling/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.104s]   CMakeLists.txt:2 (find_package)
+[0.104s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.104s] [0m
+[0.104s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPython/Support.cmake:1843 (list):
+[0.104s]   Policy CMP0007 is not set: list command no longer ignores empty elements.
+[0.104s]   Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy
+[0.104s]   command to set the policy and suppress this warning.  List has value =
+[0.104s]   [Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages].
+[0.104s] Call Stack (most recent call first):
+[0.104s]   /usr/share/cmake-3.22/Modules/FindPython3.cmake:490 (include)
+[0.105s]   /opt/ros/rolling/share/ament_cmake_core/cmake/core/python.cmake:21 (find_package)
+[0.105s]   /opt/ros/rolling/share/ament_cmake_core/cmake/core/all.cmake:55 (include)
+[0.106s]   /opt/ros/rolling/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.106s]   /opt/ros/rolling/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.106s]   /opt/ros/rolling/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.106s]   /opt/ros/rolling/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.106s]   CMakeLists.txt:2 (find_package)
+[0.107s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.107s] [0m
+[0.107s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPython/Support.cmake:1844 (list):
+[0.107s]   Policy CMP0007 is not set: list command no longer ignores empty elements.
+[0.107s]   Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy
+[0.107s]   command to set the policy and suppress this warning.  List has value =
+[0.107s]   [Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages].
+[0.107s] Call Stack (most recent call first):
+[0.107s]   /usr/share/cmake-3.22/Modules/FindPython3.cmake:490 (include)
+[0.107s]   /opt/ros/rolling/share/ament_cmake_core/cmake/core/python.cmake:21 (find_package)
+[0.107s]   /opt/ros/rolling/share/ament_cmake_core/cmake/core/all.cmake:55 (include)
+[0.107s]   /opt/ros/rolling/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.108s]   /opt/ros/rolling/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.108s]   /opt/ros/rolling/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.108s]   /opt/ros/rolling/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.108s]   CMakeLists.txt:2 (find_package)
+[0.108s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.108s] [0m
+[0.108s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPython/Support.cmake:1845 (list):
+[0.108s]   Policy CMP0007 is not set: list command no longer ignores empty elements.
+[0.108s]   Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy
+[0.108s]   command to set the policy and suppress this warning.  List has value =
+[0.108s]   [Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages].
+[0.108s] Call Stack (most recent call first):
+[0.108s]   /usr/share/cmake-3.22/Modules/FindPython3.cmake:490 (include)
+[0.108s]   /opt/ros/rolling/share/ament_cmake_core/cmake/core/python.cmake:21 (find_package)
+[0.109s]   /opt/ros/rolling/share/ament_cmake_core/cmake/core/all.cmake:55 (include)
+[0.109s]   /opt/ros/rolling/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.109s]   /opt/ros/rolling/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.109s]   /opt/ros/rolling/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.109s]   /opt/ros/rolling/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.109s]   CMakeLists.txt:2 (find_package)
+[0.109s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.109s] [0m
+[0.109s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPython/Support.cmake:1846 (list):
+[0.109s]   Policy CMP0007 is not set: list command no longer ignores empty elements.
+[0.109s]   Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy
+[0.109s]   command to set the policy and suppress this warning.  List has value =
+[0.110s]   [Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages].
+[0.110s] Call Stack (most recent call first):
+[0.110s]   /usr/share/cmake-3.22/Modules/FindPython3.cmake:490 (include)
+[0.110s]   /opt/ros/rolling/share/ament_cmake_core/cmake/core/python.cmake:21 (find_package)
+[0.110s]   /opt/ros/rolling/share/ament_cmake_core/cmake/core/all.cmake:55 (include)
+[0.110s]   /opt/ros/rolling/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.110s]   /opt/ros/rolling/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.110s]   /opt/ros/rolling/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.110s]   /opt/ros/rolling/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.110s]   CMakeLists.txt:2 (find_package)
+[0.111s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.111s] [0m
+[0.111s] [31mCMake Error at /usr/share/cmake-3.22/Modules/FindPython/Support.cmake:1846 (list):
+[0.111s]   list index: 10 out of range (-10, 9)
+[0.111s] Call Stack (most recent call first):
+[0.111s]   /usr/share/cmake-3.22/Modules/FindPython3.cmake:490 (include)
+[0.111s]   /opt/ros/rolling/share/ament_cmake_core/cmake/core/python.cmake:21 (find_package)
+[0.112s]   /opt/ros/rolling/share/ament_cmake_core/cmake/core/all.cmake:55 (include)
+[0.112s]   /opt/ros/rolling/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.112s]   /opt/ros/rolling/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.112s]   /opt/ros/rolling/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.112s]   /opt/ros/rolling/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.112s]   CMakeLists.txt:2 (find_package)
+[0.112s] 
+[0.112s] [0m
+[0.132s] -- Found rclcpp: 23.2.0 (/opt/ros/rolling/share/rclcpp/cmake)
+[0.133s] [33mCMake Warning (dev) at /opt/ros/rolling/share/ament_cmake_core/cmake/core/normalize_path.cmake:52 (while):
+[0.133s]   had incorrect arguments:
+[0.133s] 
+[0.133s]     "TRUE"
+[0.134s] 
+[0.134s]   An argument named "TRUE" appears in a conditional statement.  Policy
+[0.134s]   CMP0012 is not set: if() recognizes numbers and boolean constants.  Run
+[0.134s]   "cmake --help-policy CMP0012" for policy details.  Use the cmake_policy
+[0.134s]   command to set the policy and suppress this warning.
+[0.134s] Call Stack (most recent call first):
+[0.134s]   /opt/ros/rolling/share/ament_cmake_core/cmake/core/normalize_path.cmake:34 (_normalize_path__collapse_redundant)
+[0.134s]   /opt/ros/rolling/share/rclcpp/cmake/ament_cmake_export_include_directories-extras.cmake:13 (normalize_path)
+[0.134s]   /opt/ros/rolling/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)
+[0.134s]   CMakeLists.txt:3 (find_package)
+[0.134s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.134s] [0m
+[0.135s] [33mCMake Warning (dev) at /opt/ros/rolling/share/ament_cmake_core/cmake/core/normalize_path.cmake:72 (while):
+[0.135s]   had incorrect arguments:
+[0.135s] 
+[0.135s]     "TRUE"
+[0.135s] 
+[0.135s]   An argument named "TRUE" appears in a conditional statement.  Policy
+[0.135s]   CMP0012 is not set: if() recognizes numbers and boolean constants.  Run
+[0.135s]   "cmake --help-policy CMP0012" for policy details.  Use the cmake_policy
+[0.135s]   command to set the policy and suppress this warning.
+[0.135s] Call Stack (most recent call first):
+[0.135s]   /opt/ros/rolling/share/ament_cmake_core/cmake/core/normalize_path.cmake:35 (_normalize_path__collapse_uplevel_reference)
+[0.135s]   /opt/ros/rolling/share/rclcpp/cmake/ament_cmake_export_include_directories-extras.cmake:13 (normalize_path)
+[0.136s]   /opt/ros/rolling/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)
+[0.136s]   CMakeLists.txt:3 (find_package)
+[0.136s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.136s] [0m
+[0.136s] -- Configuring incomplete, errors occurred!
+[0.136s] See also "/home/fishros/ros2_ws/src/build/mapcloud/CMakeFiles/CMakeOutput.log".
+[0.136s] [33mCMake Warning (dev) at /opt/ros/rolling/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):
+[0.136s]   Policy CMP0057 is not set: Support new IN_LIST if() operator.  Run "cmake
+[0.136s]   --help-policy CMP0057" for policy details.  Use the cmake_policy command to
+[0.136s]   set the policy and suppress this warning.
+[0.137s] 
+[0.137s]   IN_LIST will be interpreted as an operator when the policy is set to NEW.
+[0.137s]   Since the policy is not set the OLD behavior will be used.
+[0.137s] Call Stack (most recent call first):
+[0.137s]   /opt/ros/rolling/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:34 (list_append_unique)
+[0.137s]   /opt/ros/rolling/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)
+[0.137s]   CMakeLists.txt:3 (find_package)
+[0.137s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.137s] [0m
+[0.138s] [31mCMake Error at /opt/ros/rolling/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):
+[0.138s]   if given arguments:
+[0.138s] 
+[0.138s]     "NOT" "element" "IN_LIST" "rclcpp_INCLUDE_DIRS"
+[0.138s] 
+[0.138s]   Unknown arguments specified
+[0.138s] Call Stack (most recent call first):
+[0.138s]   /opt/ros/rolling/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:34 (list_append_unique)
+[0.138s]   /opt/ros/rolling/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)
+[0.138s]   CMakeLists.txt:3 (find_package)
+[0.138s] 
+[0.139s] [0m
+[0.139s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.139s]   No cmake_minimum_required command is present.  A line of code such as
+[0.139s] 
+[0.139s]     cmake_minimum_required(VERSION 3.22)
+[0.139s] 
+[0.140s]   should be added at the top of the file.  The version specified may be lower
+[0.140s]   if you wish to support older CMake versions for this project.  For more
+[0.140s]   information run "cmake --help-policy CMP0000".
+[0.140s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.140s] [0m
+[0.140s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.188s] Invoked command in '/home/fishros/ros2_ws/src/build/mapcloud' returned '2': /usr/bin/cmake --build /home/fishros/ros2_ws/src/build/mapcloud -- -j20 -l20

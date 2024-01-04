@@ -1,0 +1,54 @@
+[0.026s] Invoking command in '/home/fishros/ros2_ws/src/build/mapcloud': /usr/bin/cmake /home/fishros/ros2_ws/src/mapcloud -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fishros/ros2_ws/src/install/mapcloud
+[0.051s] -- The C compiler identification is GNU 11.4.0
+[0.079s] -- The CXX compiler identification is GNU 11.4.0
+[0.083s] -- Detecting C compiler ABI info
+[0.116s] -- Detecting C compiler ABI info - done
+[0.120s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.120s] -- Detecting C compile features
+[0.120s] -- Detecting C compile features - done
+[0.122s] -- Detecting CXX compiler ABI info
+[0.160s] -- Detecting CXX compiler ABI info - done
+[0.164s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.165s] -- Detecting CXX compile features
+[0.165s] -- Detecting CXX compile features - done
+[0.166s] -- Found ament_cmake: 2.3.0 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.246s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.283s] -- Found rclcpp: 23.2.0 (/opt/ros/rolling/share/rclcpp/cmake)
+[0.302s] -- Found rosidl_generator_c: 4.4.1 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+[0.307s] -- Found rosidl_generator_cpp: 4.4.1 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+[0.314s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.322s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.402s] -- Found rmw_implementation_cmake: 7.2.1 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+[0.403s] -- Found rmw_fastrtps_cpp: 7.6.0 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)
+[0.450s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.461s] -- Found FastRTPS: /opt/ros/rolling/include  
+[0.480s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.572s] -- Found nav_msgs: 5.2.0 (/opt/ros/rolling/share/nav_msgs/cmake)
+[0.697s] -- Found sensor_msgs: 5.2.0 (/opt/ros/rolling/share/sensor_msgs/cmake)
+[0.754s] -- Found cv_bridge: 3.4.0 (/opt/ros/rolling/share/cv_bridge/cmake)
+[0.774s] -- Found pcl_conversions: 2.4.0 (/opt/ros/rolling/share/pcl_conversions/cmake)
+[0.960s] -- Configuring done
+[0.987s] -- Generating done
+[0.988s] [33mCMake Warning:
+[0.988s]   Manually-specified variables were not used by the project:
+[0.988s] 
+[0.988s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[0.988s] 
+[0.988s] [0m
+[0.988s] -- Build files have been written to: /home/fishros/ros2_ws/src/build/mapcloud
+[0.993s] Invoked command in '/home/fishros/ros2_ws/src/build/mapcloud' returned '0': /usr/bin/cmake /home/fishros/ros2_ws/src/mapcloud -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fishros/ros2_ws/src/install/mapcloud
+[0.993s] Invoking command in '/home/fishros/ros2_ws/src/build/mapcloud': /usr/bin/cmake --build /home/fishros/ros2_ws/src/build/mapcloud -- -j20 -l20
+[1.018s] [ 50%] [32mBuilding CXX object CMakeFiles/mapcloud_node.dir/src/mapcloud.cpp.o[0m
+[3.641s] In file included from [01m[K/home/fishros/ros2_ws/src/mapcloud/src/mapcloud.cpp:4[m[K:
+[3.641s] [01m[K/opt/ros/rolling/include/cv_bridge/cv_bridge/cv_bridge.h:42:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include cv_bridge/cv_bridge.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[3.641s]    42 | #[01;35m[Kwarning[m[K This header is obsolete, please include cv_bridge/cv_bridge.hpp instead
+[3.641s]       |  [01;35m[K^~~~~~~[m[K
+[3.679s] In file included from [01m[K/home/fishros/ros2_ws/src/mapcloud/src/mapcloud.cpp:5[m[K:
+[3.679s] [01m[K/opt/ros/rolling/include/pcl_conversions/pcl_conversions.h:46:10:[m[K [01;31m[Kfatal error: [m[Kpcl/conversions.h: No such file or directory
+[3.679s]    46 | #include [01;31m[K<pcl/conversions.h>[m[K
+[3.679s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.679s] compilation terminated.
+[3.681s] gmake[2]: *** [CMakeFiles/mapcloud_node.dir/build.make:76: CMakeFiles/mapcloud_node.dir/src/mapcloud.cpp.o] Error 1
+[3.681s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mapcloud_node.dir/all] Error 2
+[3.681s] gmake: *** [Makefile:146: all] Error 2
+[3.683s] Invoked command in '/home/fishros/ros2_ws/src/build/mapcloud' returned '2': /usr/bin/cmake --build /home/fishros/ros2_ws/src/build/mapcloud -- -j20 -l20

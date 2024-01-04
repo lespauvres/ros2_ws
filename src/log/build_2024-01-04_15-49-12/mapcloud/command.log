@@ -1,0 +1,4 @@
+Invoking command in '/home/fishros/ros2_ws/src/build/mapcloud': /usr/bin/cmake /home/fishros/ros2_ws/src/mapcloud -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fishros/ros2_ws/src/install/mapcloud
+Invoked command in '/home/fishros/ros2_ws/src/build/mapcloud' returned '0': /usr/bin/cmake /home/fishros/ros2_ws/src/mapcloud -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fishros/ros2_ws/src/install/mapcloud
+Invoking command in '/home/fishros/ros2_ws/src/build/mapcloud': /usr/bin/cmake --build /home/fishros/ros2_ws/src/build/mapcloud -- -j20 -l20
+Invoked command in '/home/fishros/ros2_ws/src/build/mapcloud' returned '2': /usr/bin/cmake --build /home/fishros/ros2_ws/src/build/mapcloud -- -j20 -l20

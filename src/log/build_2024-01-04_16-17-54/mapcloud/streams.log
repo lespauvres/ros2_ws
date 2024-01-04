@@ -1,0 +1,34 @@
+[0.026s] Invoking command in '/home/fishros/ros2_ws/src/build/mapcloud': /usr/bin/cmake --build /home/fishros/ros2_ws/src/build/mapcloud -- -j20 -l20
+[0.038s] -- Found ament_cmake: 2.3.0 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.113s] -- Found rclcpp: 23.2.0 (/opt/ros/rolling/share/rclcpp/cmake)
+[0.130s] -- Found rosidl_generator_c: 4.4.1 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+[0.134s] -- Found rosidl_generator_cpp: 4.4.1 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+[0.140s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.147s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.224s] -- Found rmw_implementation_cmake: 7.2.1 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+[0.225s] -- Found rmw_fastrtps_cpp: 7.6.0 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)
+[0.279s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.364s] -- Found nav_msgs: 5.2.0 (/opt/ros/rolling/share/nav_msgs/cmake)
+[0.485s] -- Found sensor_msgs: 5.2.0 (/opt/ros/rolling/share/sensor_msgs/cmake)
+[0.540s] -- Found cv_bridge: 3.4.0 (/opt/ros/rolling/share/cv_bridge/cmake)
+[0.552s] -- Found pcl_conversions: 2.4.0 (/opt/ros/rolling/share/pcl_conversions/cmake)
+[0.655s] [31mCMake Error at CMakeLists.txt:14 (find_package):
+[0.655s]   By not providing "Findpcl.cmake" in CMAKE_MODULE_PATH this project has
+[0.655s]   asked CMake to find a package configuration file provided by "pcl", but
+[0.655s]   CMake did not find one.
+[0.655s] 
+[0.655s]   Could not find a package configuration file provided by "pcl" with any of
+[0.655s]   the following names:
+[0.655s] 
+[0.655s]     pclConfig.cmake
+[0.655s]     pcl-config.cmake
+[0.656s] 
+[0.656s]   Add the installation prefix of "pcl" to CMAKE_PREFIX_PATH or set "pcl_DIR"
+[0.656s]   to a directory containing one of the above files.  If "pcl" provides a
+[0.656s]   separate development package or SDK, be sure it has been installed.
+[0.656s] 
+[0.656s] [0m
+[0.656s] -- Configuring incomplete, errors occurred!
+[0.656s] See also "/home/fishros/ros2_ws/src/build/mapcloud/CMakeFiles/CMakeOutput.log".
+[0.658s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.660s] Invoked command in '/home/fishros/ros2_ws/src/build/mapcloud' returned '2': /usr/bin/cmake --build /home/fishros/ros2_ws/src/build/mapcloud -- -j20 -l20

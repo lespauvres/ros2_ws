@@ -1,0 +1,344 @@
+[0.000000] (-) TimerEvent: {}
+[0.000167] (camera) JobQueued: {'identifier': 'camera', 'dependencies': OrderedDict()}
+[0.000329] (imodo) JobQueued: {'identifier': 'imodo', 'dependencies': OrderedDict()}
+[0.000401] (mapcloud) JobQueued: {'identifier': 'mapcloud', 'dependencies': OrderedDict()}
+[0.000433] (camera) JobStarted: {'identifier': 'camera'}
+[0.021983] (imodo) JobStarted: {'identifier': 'imodo'}
+[0.041577] (mapcloud) JobStarted: {'identifier': 'mapcloud'}
+[0.062402] (camera) JobProgress: {'identifier': 'camera', 'progress': 'cmake'}
+[0.062758] (camera) JobProgress: {'identifier': 'camera', 'progress': 'build'}
+[0.063130] (camera) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fishros/ros2_ws/src/build/camera', '--', '-j20', '-l20'], 'cwd': '/home/fishros/ros2_ws/src/build/camera', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'fishros'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib'), ('HOME', '/home/fishros'), ('OLDPWD', '/home/fishros/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1316'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b4ba9828e52028c5d99f50da65969892'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'rolling'), ('LOGNAME', 'fishros'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fishros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/rolling/bin:/home/fishros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fishros-linux:@/tmp/.ICE-unix/1316,unix/fishros-linux:/tmp/.ICE-unix/1316'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/938b3af0_1da5_47ab_9eb7_97ccb4e80ac4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6P78G2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.902'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/rolling'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fishros/ros2_ws/src/build/camera'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b4ba9828e52028c5d99f50da65969892'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/rolling/lib/python3.10/site-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/rolling')]), 'shell': False}
+[0.065115] (imodo) JobProgress: {'identifier': 'imodo', 'progress': 'cmake'}
+[0.065628] (imodo) JobProgress: {'identifier': 'imodo', 'progress': 'build'}
+[0.065948] (imodo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fishros/ros2_ws/src/build/imodo', '--', '-j20', '-l20'], 'cwd': '/home/fishros/ros2_ws/src/build/imodo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'fishros'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib'), ('HOME', '/home/fishros'), ('OLDPWD', '/home/fishros/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1316'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b4ba9828e52028c5d99f50da65969892'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'rolling'), ('LOGNAME', 'fishros'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fishros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/rolling/bin:/home/fishros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fishros-linux:@/tmp/.ICE-unix/1316,unix/fishros-linux:/tmp/.ICE-unix/1316'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/938b3af0_1da5_47ab_9eb7_97ccb4e80ac4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6P78G2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.902'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/rolling'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fishros/ros2_ws/src/build/imodo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b4ba9828e52028c5d99f50da65969892'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/rolling/lib/python3.10/site-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/rolling')]), 'shell': False}
+[0.068421] (mapcloud) JobProgress: {'identifier': 'mapcloud', 'progress': 'cmake'}
+[0.069390] (mapcloud) JobProgress: {'identifier': 'mapcloud', 'progress': 'build'}
+[0.069725] (mapcloud) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fishros/ros2_ws/src/build/mapcloud', '--', '-j20', '-l20'], 'cwd': '/home/fishros/ros2_ws/src/build/mapcloud', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'fishros'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib'), ('HOME', '/home/fishros'), ('OLDPWD', '/home/fishros/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1316'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b4ba9828e52028c5d99f50da65969892'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'rolling'), ('LOGNAME', 'fishros'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fishros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/rolling/bin:/home/fishros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fishros-linux:@/tmp/.ICE-unix/1316,unix/fishros-linux:/tmp/.ICE-unix/1316'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/938b3af0_1da5_47ab_9eb7_97ccb4e80ac4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6P78G2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.902'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/rolling'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fishros/ros2_ws/src/build/mapcloud'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b4ba9828e52028c5d99f50da65969892'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/rolling/lib/python3.10/site-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.082457] (mapcloud) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.082589] (mapcloud) StderrLine: {'line': b'  No project() command is present.  The top-level CMakeLists.txt file must\n'}
+[0.082626] (mapcloud) StderrLine: {'line': b'  contain a literal, direct call to the project() command.  Add a line of\n'}
+[0.082661] (mapcloud) StderrLine: {'line': b'  code such as\n'}
+[0.082692] (mapcloud) StderrLine: {'line': b'\n'}
+[0.082723] (mapcloud) StderrLine: {'line': b'    project(ProjectName)\n'}
+[0.082752] (mapcloud) StderrLine: {'line': b'\n'}
+[0.082783] (mapcloud) StderrLine: {'line': b'  near the top of the file, but after cmake_minimum_required().\n'}
+[0.082811] (mapcloud) StderrLine: {'line': b'\n'}
+[0.082838] (mapcloud) StderrLine: {'line': b'  CMake is pretending there is a "project(Project)" command on the first\n'}
+[0.082865] (mapcloud) StderrLine: {'line': b'  line.\n'}
+[0.082892] (mapcloud) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.082917] (mapcloud) StderrLine: {'line': b'\x1b[0m\n'}
+[0.085753] (mapcloud) StdoutLine: {'line': b'-- Found ament_cmake: 2.3.0 (/opt/ros/rolling/share/ament_cmake/cmake)\n'}
+[0.099984] (camera) StdoutLine: {'line': b'[100%] Built target camera_display_node\n'}
+[0.100138] (-) TimerEvent: {}
+[0.100220] (imodo) StdoutLine: {'line': b'[100%] Built target imodo\n'}
+[0.107012] (camera) CommandEnded: {'returncode': 0}
+[0.108577] (imodo) CommandEnded: {'returncode': 0}
+[0.122706] (imodo) JobProgress: {'identifier': 'imodo', 'progress': 'install'}
+[0.127610] (imodo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/fishros/ros2_ws/src/build/imodo'], 'cwd': '/home/fishros/ros2_ws/src/build/imodo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'fishros'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib'), ('HOME', '/home/fishros'), ('OLDPWD', '/home/fishros/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1316'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b4ba9828e52028c5d99f50da65969892'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'rolling'), ('LOGNAME', 'fishros'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fishros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/rolling/bin:/home/fishros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fishros-linux:@/tmp/.ICE-unix/1316,unix/fishros-linux:/tmp/.ICE-unix/1316'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/938b3af0_1da5_47ab_9eb7_97ccb4e80ac4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6P78G2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.902'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/rolling'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fishros/ros2_ws/src/build/imodo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b4ba9828e52028c5d99f50da65969892'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/rolling/lib/python3.10/site-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/rolling')]), 'shell': False}
+[0.128714] (camera) JobProgress: {'identifier': 'camera', 'progress': 'install'}
+[0.129306] (camera) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/fishros/ros2_ws/src/build/camera'], 'cwd': '/home/fishros/ros2_ws/src/build/camera', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'fishros'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib'), ('HOME', '/home/fishros'), ('OLDPWD', '/home/fishros/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1316'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b4ba9828e52028c5d99f50da65969892'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'rolling'), ('LOGNAME', 'fishros'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fishros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/rolling/bin:/home/fishros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fishros-linux:@/tmp/.ICE-unix/1316,unix/fishros-linux:/tmp/.ICE-unix/1316'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/938b3af0_1da5_47ab_9eb7_97ccb4e80ac4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6P78G2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.902'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/rolling'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fishros/ros2_ws/src/build/camera'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b4ba9828e52028c5d99f50da65969892'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/rolling/lib/python3.10/site-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/rolling')]), 'shell': False}
+[0.132259] (imodo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.132814] (mapcloud) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPython/Support.cmake:1831 (list):\n'}
+[0.132936] (mapcloud) StderrLine: {'line': b'  Policy CMP0007 is not set: list command no longer ignores empty elements.\n'}
+[0.133010] (mapcloud) StderrLine: {'line': b'  Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy\n'}
+[0.133081] (mapcloud) StderrLine: {'line': b'  command to set the policy and suppress this warning.  List has value =\n'}
+[0.133148] (mapcloud) StderrLine: {'line': b'  [Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages].\n'}
+[0.133217] (mapcloud) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.133310] (mapcloud) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPython3.cmake:490 (include)\n'}
+[0.133461] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake_core/cmake/core/python.cmake:21 (find_package)\n'}
+[0.133817] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake_core/cmake/core/all.cmake:55 (include)\n'}
+[0.134423] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.134670] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.134972] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.135160] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.135408] (mapcloud) StderrLine: {'line': b'  CMakeLists.txt:2 (find_package)\n'}
+[0.135542] (mapcloud) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.135792] (imodo) StdoutLine: {'line': b'-- Up-to-date: /home/fishros/ros2_ws/src/install/imodo/lib/imodo/imodo\n'}
+[0.136082] (mapcloud) StderrLine: {'line': b'\x1b[0m\n'}
+[0.136208] (mapcloud) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPython/Support.cmake:1833 (list):\n'}
+[0.136458] (mapcloud) StderrLine: {'line': b'  Policy CMP0007 is not set: list command no longer ignores empty elements.\n'}
+[0.136633] (mapcloud) StderrLine: {'line': b'  Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy\n'}
+[0.136827] (mapcloud) StderrLine: {'line': b'  command to set the policy and suppress this warning.  List has value =\n'}
+[0.137052] (mapcloud) StderrLine: {'line': b'  [Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages].\n'}
+[0.137257] (mapcloud) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.137457] (mapcloud) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPython3.cmake:490 (include)\n'}
+[0.137568] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake_core/cmake/core/python.cmake:21 (find_package)\n'}
+[0.137726] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake_core/cmake/core/all.cmake:55 (include)\n'}
+[0.137890] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.138048] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.138309] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.138451] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.138605] (mapcloud) StderrLine: {'line': b'  CMakeLists.txt:2 (find_package)\n'}
+[0.138927] (mapcloud) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.139168] (mapcloud) StderrLine: {'line': b'\x1b[0m\n'}
+[0.139306] (mapcloud) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPython/Support.cmake:1834 (list):\n'}
+[0.139362] (mapcloud) StderrLine: {'line': b'  Policy CMP0007 is not set: list command no longer ignores empty elements.\n'}
+[0.139412] (mapcloud) StderrLine: {'line': b'  Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy\n'}
+[0.139461] (mapcloud) StderrLine: {'line': b'  command to set the policy and suppress this warning.  List has value =\n'}
+[0.139530] (mapcloud) StderrLine: {'line': b'  [Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages].\n'}
+[0.139600] (mapcloud) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.139643] (mapcloud) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPython3.cmake:490 (include)\n'}
+[0.139810] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake_core/cmake/core/python.cmake:21 (find_package)\n'}
+[0.139853] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake_core/cmake/core/all.cmake:55 (include)\n'}
+[0.139892] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.139929] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.139967] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.140003] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.140042] (mapcloud) StderrLine: {'line': b'  CMakeLists.txt:2 (find_package)\n'}
+[0.140148] (mapcloud) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.140191] (mapcloud) StderrLine: {'line': b'\x1b[0m\n'}
+[0.140236] (mapcloud) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPython/Support.cmake:1835 (list):\n'}
+[0.140277] (mapcloud) StderrLine: {'line': b'  Policy CMP0007 is not set: list command no longer ignores empty elements.\n'}
+[0.140345] (mapcloud) StderrLine: {'line': b'  Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy\n'}
+[0.140400] (mapcloud) StderrLine: {'line': b'  command to set the policy and suppress this warning.  List has value =\n'}
+[0.140446] (mapcloud) StderrLine: {'line': b'  [Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages].\n'}
+[0.140491] (mapcloud) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.140538] (mapcloud) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPython3.cmake:490 (include)\n'}
+[0.140567] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake_core/cmake/core/python.cmake:21 (find_package)\n'}
+[0.140598] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake_core/cmake/core/all.cmake:55 (include)\n'}
+[0.140628] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.140658] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.140688] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.140721] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.140750] (mapcloud) StderrLine: {'line': b'  CMakeLists.txt:2 (find_package)\n'}
+[0.140982] (mapcloud) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.141103] (mapcloud) StderrLine: {'line': b'\x1b[0m\n'}
+[0.141168] (mapcloud) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPython/Support.cmake:1837 (list):\n'}
+[0.141228] (mapcloud) StderrLine: {'line': b'  Policy CMP0007 is not set: list command no longer ignores empty elements.\n'}
+[0.141313] (mapcloud) StderrLine: {'line': b'  Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy\n'}
+[0.141371] (mapcloud) StderrLine: {'line': b'  command to set the policy and suppress this warning.  List has value =\n'}
+[0.141457] (imodo) StdoutLine: {'line': b'-- Up-to-date: /home/fishros/ros2_ws/src/install/imodo/share/imodo/launch\n'}
+[0.141517] (mapcloud) StderrLine: {'line': b'  [Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages].\n'}
+[0.141639] (mapcloud) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.141727] (mapcloud) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPython3.cmake:490 (include)\n'}
+[0.141784] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake_core/cmake/core/python.cmake:21 (find_package)\n'}
+[0.141864] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake_core/cmake/core/all.cmake:55 (include)\n'}
+[0.141922] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.141994] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.142062] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.142193] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.142314] (mapcloud) StderrLine: {'line': b'  CMakeLists.txt:2 (find_package)\n'}
+[0.142414] (mapcloud) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.142485] (mapcloud) StderrLine: {'line': b'\x1b[0m\n'}
+[0.142550] (mapcloud) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPython/Support.cmake:1840 (list):\n'}
+[0.142636] (mapcloud) StderrLine: {'line': b'  Policy CMP0007 is not set: list command no longer ignores empty elements.\n'}
+[0.142735] (mapcloud) StderrLine: {'line': b'  Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy\n'}
+[0.142794] (mapcloud) StderrLine: {'line': b'  command to set the policy and suppress this warning.  List has value =\n'}
+[0.142864] (mapcloud) StderrLine: {'line': b'  [Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages].\n'}
+[0.142931] (mapcloud) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.142986] (mapcloud) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPython3.cmake:490 (include)\n'}
+[0.143067] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake_core/cmake/core/python.cmake:21 (find_package)\n'}
+[0.143116] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake_core/cmake/core/all.cmake:55 (include)\n'}
+[0.143211] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.143293] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.143361] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.143415] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.143470] (mapcloud) StderrLine: {'line': b'  CMakeLists.txt:2 (find_package)\n'}
+[0.143614] (mapcloud) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.143665] (mapcloud) StderrLine: {'line': b'\x1b[0m\n'}
+[0.143731] (mapcloud) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPython/Support.cmake:1841 (list):\n'}
+[0.143839] (mapcloud) StderrLine: {'line': b'  Policy CMP0007 is not set: list command no longer ignores empty elements.\n'}
+[0.143965] (mapcloud) StderrLine: {'line': b'  Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy\n'}
+[0.144028] (mapcloud) StderrLine: {'line': b'  command to set the policy and suppress this warning.  List has value =\n'}
+[0.144144] (mapcloud) StderrLine: {'line': b'  [Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages].\n'}
+[0.144513] (mapcloud) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.144624] (mapcloud) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPython3.cmake:490 (include)\n'}
+[0.144688] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake_core/cmake/core/python.cmake:21 (find_package)\n'}
+[0.144883] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake_core/cmake/core/all.cmake:55 (include)\n'}
+[0.144941] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.145000] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.145083] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.145144] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.145232] (mapcloud) StderrLine: {'line': b'  CMakeLists.txt:2 (find_package)\n'}
+[0.145331] (mapcloud) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.145423] (mapcloud) StderrLine: {'line': b'\x1b[0m\n'}
+[0.145532] (mapcloud) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPython/Support.cmake:1843 (list):\n'}
+[0.145589] (mapcloud) StderrLine: {'line': b'  Policy CMP0007 is not set: list command no longer ignores empty elements.\n'}
+[0.145671] (mapcloud) StderrLine: {'line': b'  Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy\n'}
+[0.145750] (mapcloud) StderrLine: {'line': b'  command to set the policy and suppress this warning.  List has value =\n'}
+[0.145830] (mapcloud) StderrLine: {'line': b'  [Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages].\n'}
+[0.145885] (mapcloud) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.145961] (mapcloud) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPython3.cmake:490 (include)\n'}
+[0.146044] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake_core/cmake/core/python.cmake:21 (find_package)\n'}
+[0.146110] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake_core/cmake/core/all.cmake:55 (include)\n'}
+[0.146188] (imodo) StdoutLine: {'line': b'-- Up-to-date: /home/fishros/ros2_ws/src/install/imodo/share/imodo/package.xml\n'}
+[0.146299] (imodo) StdoutLine: {'line': b'-- Up-to-date: /home/fishros/ros2_ws/src/install/imodo/share/ament_index/resource_index/package_run_dependencies/imodo\n'}
+[0.146398] (imodo) StdoutLine: {'line': b'-- Up-to-date: /home/fishros/ros2_ws/src/install/imodo/share/ament_index/resource_index/parent_prefix_path/imodo\n'}
+[0.146477] (imodo) StdoutLine: {'line': b'-- Up-to-date: /home/fishros/ros2_ws/src/install/imodo/share/imodo/environment/ament_prefix_path.sh\n'}
+[0.146538] (imodo) StdoutLine: {'line': b'-- Up-to-date: /home/fishros/ros2_ws/src/install/imodo/share/imodo/environment/ament_prefix_path.dsv\n'}
+[0.146607] (imodo) StdoutLine: {'line': b'-- Up-to-date: /home/fishros/ros2_ws/src/install/imodo/share/imodo/environment/path.sh\n'}
+[0.146695] (imodo) StdoutLine: {'line': b'-- Up-to-date: /home/fishros/ros2_ws/src/install/imodo/share/imodo/environment/path.dsv\n'}
+[0.146780] (imodo) StdoutLine: {'line': b'-- Up-to-date: /home/fishros/ros2_ws/src/install/imodo/share/imodo/local_setup.bash\n'}
+[0.146962] (imodo) StdoutLine: {'line': b'-- Up-to-date: /home/fishros/ros2_ws/src/install/imodo/share/imodo/local_setup.sh\n'}
+[0.147045] (imodo) StdoutLine: {'line': b'-- Up-to-date: /home/fishros/ros2_ws/src/install/imodo/share/imodo/local_setup.zsh\n'}
+[0.147565] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.147644] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.147709] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.147843] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.147951] (mapcloud) StderrLine: {'line': b'  CMakeLists.txt:2 (find_package)\n'}
+[0.148064] (mapcloud) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.148213] (mapcloud) StderrLine: {'line': b'\x1b[0m\n'}
+[0.148275] (mapcloud) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPython/Support.cmake:1844 (list):\n'}
+[0.148304] (mapcloud) StderrLine: {'line': b'  Policy CMP0007 is not set: list command no longer ignores empty elements.\n'}
+[0.148366] (mapcloud) StderrLine: {'line': b'  Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy\n'}
+[0.148431] (mapcloud) StderrLine: {'line': b'  command to set the policy and suppress this warning.  List has value =\n'}
+[0.148489] (mapcloud) StderrLine: {'line': b'  [Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages].\n'}
+[0.148646] (mapcloud) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.148710] (mapcloud) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPython3.cmake:490 (include)\n'}
+[0.148775] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake_core/cmake/core/python.cmake:21 (find_package)\n'}
+[0.148827] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake_core/cmake/core/all.cmake:55 (include)\n'}
+[0.148876] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.148907] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.149223] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.149291] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.149363] (mapcloud) StderrLine: {'line': b'  CMakeLists.txt:2 (find_package)\n'}
+[0.149432] (mapcloud) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.149485] (mapcloud) StderrLine: {'line': b'\x1b[0m\n'}
+[0.149525] (mapcloud) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPython/Support.cmake:1845 (list):\n'}
+[0.149568] (mapcloud) StderrLine: {'line': b'  Policy CMP0007 is not set: list command no longer ignores empty elements.\n'}
+[0.149604] (mapcloud) StderrLine: {'line': b'  Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy\n'}
+[0.149712] (mapcloud) StderrLine: {'line': b'  command to set the policy and suppress this warning.  List has value =\n'}
+[0.149798] (mapcloud) StderrLine: {'line': b'  [Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages].\n'}
+[0.149869] (mapcloud) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.149999] (mapcloud) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPython3.cmake:490 (include)\n'}
+[0.150054] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake_core/cmake/core/python.cmake:21 (find_package)\n'}
+[0.150150] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake_core/cmake/core/all.cmake:55 (include)\n'}
+[0.150215] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.150296] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.150374] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.150460] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.150542] (mapcloud) StderrLine: {'line': b'  CMakeLists.txt:2 (find_package)\n'}
+[0.150635] (mapcloud) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.150704] (mapcloud) StderrLine: {'line': b'\x1b[0m\n'}
+[0.150772] (mapcloud) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPython/Support.cmake:1846 (list):\n'}
+[0.150833] (mapcloud) StderrLine: {'line': b'  Policy CMP0007 is not set: list command no longer ignores empty elements.\n'}
+[0.150926] (mapcloud) StderrLine: {'line': b'  Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy\n'}
+[0.151016] (mapcloud) StderrLine: {'line': b'  command to set the policy and suppress this warning.  List has value =\n'}
+[0.151083] (mapcloud) StderrLine: {'line': b'  [Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages].\n'}
+[0.151201] (mapcloud) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.151291] (mapcloud) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPython3.cmake:490 (include)\n'}
+[0.151370] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake_core/cmake/core/python.cmake:21 (find_package)\n'}
+[0.151449] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake_core/cmake/core/all.cmake:55 (include)\n'}
+[0.151503] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.151593] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.151662] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.151735] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.151813] (mapcloud) StderrLine: {'line': b'  CMakeLists.txt:2 (find_package)\n'}
+[0.151876] (imodo) StdoutLine: {'line': b'-- Up-to-date: /home/fishros/ros2_ws/src/install/imodo/share/imodo/local_setup.dsv\n'}
+[0.151958] (imodo) StdoutLine: {'line': b'-- Installing: /home/fishros/ros2_ws/src/install/imodo/share/imodo/package.dsv\n'}
+[0.152042] (mapcloud) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.152198] (mapcloud) StderrLine: {'line': b'\x1b[0m\n'}
+[0.152264] (mapcloud) StderrLine: {'line': b'\x1b[31mCMake Error at /usr/share/cmake-3.22/Modules/FindPython/Support.cmake:1846 (list):\n'}
+[0.152690] (mapcloud) StderrLine: {'line': b'  list index: 10 out of range (-10, 9)\n'}
+[0.152824] (mapcloud) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.152917] (mapcloud) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPython3.cmake:490 (include)\n'}
+[0.152979] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake_core/cmake/core/python.cmake:21 (find_package)\n'}
+[0.153045] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake_core/cmake/core/all.cmake:55 (include)\n'}
+[0.153126] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.153201] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.153312] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.153412] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.153484] (mapcloud) StderrLine: {'line': b'  CMakeLists.txt:2 (find_package)\n'}
+[0.153567] (mapcloud) StderrLine: {'line': b'\n'}
+[0.153682] (mapcloud) StderrLine: {'line': b'\x1b[0m\n'}
+[0.153801] (imodo) StdoutLine: {'line': b'-- Up-to-date: /home/fishros/ros2_ws/src/install/imodo/share/ament_index/resource_index/packages/imodo\n'}
+[0.153976] (imodo) StdoutLine: {'line': b'-- Up-to-date: /home/fishros/ros2_ws/src/install/imodo/share/imodo/cmake/imodoConfig.cmake\n'}
+[0.154068] (imodo) StdoutLine: {'line': b'-- Up-to-date: /home/fishros/ros2_ws/src/install/imodo/share/imodo/cmake/imodoConfig-version.cmake\n'}
+[0.154203] (imodo) StdoutLine: {'line': b'-- Up-to-date: /home/fishros/ros2_ws/src/install/imodo/share/imodo/package.xml\n'}
+[0.154349] (camera) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.154446] (camera) StdoutLine: {'line': b'-- Up-to-date: /home/fishros/ros2_ws/src/install/camera/lib/camera/camera_display_node\n'}
+[0.154546] (camera) StdoutLine: {'line': b'-- Up-to-date: /home/fishros/ros2_ws/src/install/camera/share/ament_index/resource_index/package_run_dependencies/camera\n'}
+[0.154826] (camera) StdoutLine: {'line': b'-- Up-to-date: /home/fishros/ros2_ws/src/install/camera/share/ament_index/resource_index/parent_prefix_path/camera\n'}
+[0.154871] (camera) StdoutLine: {'line': b'-- Up-to-date: /home/fishros/ros2_ws/src/install/camera/share/camera/environment/ament_prefix_path.sh\n'}
+[0.154980] (camera) StdoutLine: {'line': b'-- Up-to-date: /home/fishros/ros2_ws/src/install/camera/share/camera/environment/ament_prefix_path.dsv\n'}
+[0.155165] (camera) StdoutLine: {'line': b'-- Up-to-date: /home/fishros/ros2_ws/src/install/camera/share/camera/environment/path.sh\n'}
+[0.155223] (camera) StdoutLine: {'line': b'-- Up-to-date: /home/fishros/ros2_ws/src/install/camera/share/camera/environment/path.dsv\n'}
+[0.155345] (camera) StdoutLine: {'line': b'-- Up-to-date: /home/fishros/ros2_ws/src/install/camera/share/camera/local_setup.bash\n'}
+[0.155460] (camera) StdoutLine: {'line': b'-- Up-to-date: /home/fishros/ros2_ws/src/install/camera/share/camera/local_setup.sh\n'}
+[0.155767] (camera) StdoutLine: {'line': b'-- Up-to-date: /home/fishros/ros2_ws/src/install/camera/share/camera/local_setup.zsh\n'}
+[0.155839] (camera) StdoutLine: {'line': b'-- Up-to-date: /home/fishros/ros2_ws/src/install/camera/share/camera/local_setup.dsv\n'}
+[0.155906] (camera) StdoutLine: {'line': b'-- Installing: /home/fishros/ros2_ws/src/install/camera/share/camera/package.dsv\n'}
+[0.156072] (camera) StdoutLine: {'line': b'-- Up-to-date: /home/fishros/ros2_ws/src/install/camera/share/ament_index/resource_index/packages/camera\n'}
+[0.156144] (camera) StdoutLine: {'line': b'-- Up-to-date: /home/fishros/ros2_ws/src/install/camera/share/camera/cmake/cameraConfig.cmake\n'}
+[0.156257] (camera) StdoutLine: {'line': b'-- Up-to-date: /home/fishros/ros2_ws/src/install/camera/share/camera/cmake/cameraConfig-version.cmake\n'}
+[0.156320] (camera) StdoutLine: {'line': b'-- Up-to-date: /home/fishros/ros2_ws/src/install/camera/share/camera/package.xml\n'}
+[0.156408] (imodo) CommandEnded: {'returncode': 0}
+[0.173524] (mapcloud) StdoutLine: {'line': b'-- Found rclcpp: 23.2.0 (/opt/ros/rolling/share/rclcpp/cmake)\n'}
+[0.174023] (mapcloud) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/rolling/share/ament_cmake_core/cmake/core/normalize_path.cmake:52 (while):\n'}
+[0.174145] (mapcloud) StderrLine: {'line': b'  had incorrect arguments:\n'}
+[0.174319] (mapcloud) StderrLine: {'line': b'\n'}
+[0.174526] (mapcloud) StderrLine: {'line': b'    "TRUE"\n'}
+[0.174817] (mapcloud) StderrLine: {'line': b'\n'}
+[0.175120] (mapcloud) StderrLine: {'line': b'  An argument named "TRUE" appears in a conditional statement.  Policy\n'}
+[0.175462] (mapcloud) StderrLine: {'line': b'  CMP0012 is not set: if() recognizes numbers and boolean constants.  Run\n'}
+[0.175543] (mapcloud) StderrLine: {'line': b'  "cmake --help-policy CMP0012" for policy details.  Use the cmake_policy\n'}
+[0.175571] (mapcloud) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[0.175601] (mapcloud) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.175652] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake_core/cmake/core/normalize_path.cmake:34 (_normalize_path__collapse_redundant)\n'}
+[0.175681] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/rclcpp/cmake/ament_cmake_export_include_directories-extras.cmake:13 (normalize_path)\n'}
+[0.175903] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)\n'}
+[0.175939] (mapcloud) StderrLine: {'line': b'  CMakeLists.txt:3 (find_package)\n'}
+[0.175971] (mapcloud) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.176002] (mapcloud) StderrLine: {'line': b'\x1b[0m\n'}
+[0.176105] (mapcloud) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/rolling/share/ament_cmake_core/cmake/core/normalize_path.cmake:72 (while):\n'}
+[0.176138] (mapcloud) StderrLine: {'line': b'  had incorrect arguments:\n'}
+[0.176168] (mapcloud) StderrLine: {'line': b'\n'}
+[0.176198] (mapcloud) StderrLine: {'line': b'    "TRUE"\n'}
+[0.176226] (mapcloud) StderrLine: {'line': b'\n'}
+[0.176255] (mapcloud) StderrLine: {'line': b'  An argument named "TRUE" appears in a conditional statement.  Policy\n'}
+[0.176283] (mapcloud) StderrLine: {'line': b'  CMP0012 is not set: if() recognizes numbers and boolean constants.  Run\n'}
+[0.176492] (mapcloud) StderrLine: {'line': b'  "cmake --help-policy CMP0012" for policy details.  Use the cmake_policy\n'}
+[0.176649] (mapcloud) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[0.176810] (mapcloud) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.176904] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake_core/cmake/core/normalize_path.cmake:35 (_normalize_path__collapse_uplevel_reference)\n'}
+[0.176988] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/rclcpp/cmake/ament_cmake_export_include_directories-extras.cmake:13 (normalize_path)\n'}
+[0.177094] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)\n'}
+[0.177169] (mapcloud) StderrLine: {'line': b'  CMakeLists.txt:3 (find_package)\n'}
+[0.177224] (mapcloud) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.177320] (mapcloud) StderrLine: {'line': b'\x1b[0m\n'}
+[0.177481] (mapcloud) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.177569] (mapcloud) StdoutLine: {'line': b'See also "/home/fishros/ros2_ws/src/build/mapcloud/CMakeFiles/CMakeOutput.log".\n'}
+[0.177672] (mapcloud) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/rolling/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):\n'}
+[0.177794] (mapcloud) StderrLine: {'line': b'  Policy CMP0057 is not set: Support new IN_LIST if() operator.  Run "cmake\n'}
+[0.177879] (mapcloud) StderrLine: {'line': b'  --help-policy CMP0057" for policy details.  Use the cmake_policy command to\n'}
+[0.178015] (mapcloud) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[0.178105] (mapcloud) StderrLine: {'line': b'\n'}
+[0.178195] (mapcloud) StderrLine: {'line': b'  IN_LIST will be interpreted as an operator when the policy is set to NEW.\n'}
+[0.178293] (mapcloud) StderrLine: {'line': b'  Since the policy is not set the OLD behavior will be used.\n'}
+[0.178418] (mapcloud) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.178504] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:34 (list_append_unique)\n'}
+[0.178594] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)\n'}
+[0.178709] (mapcloud) StderrLine: {'line': b'  CMakeLists.txt:3 (find_package)\n'}
+[0.178784] (mapcloud) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.178878] (mapcloud) StderrLine: {'line': b'\x1b[0m\n'}
+[0.178983] (mapcloud) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/rolling/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):\n'}
+[0.179126] (mapcloud) StderrLine: {'line': b'  if given arguments:\n'}
+[0.179231] (mapcloud) StderrLine: {'line': b'\n'}
+[0.179341] (mapcloud) StderrLine: {'line': b'    "NOT" "element" "IN_LIST" "rclcpp_INCLUDE_DIRS"\n'}
+[0.179448] (mapcloud) StderrLine: {'line': b'\n'}
+[0.179538] (mapcloud) StderrLine: {'line': b'  Unknown arguments specified\n'}
+[0.179613] (mapcloud) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.179720] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:34 (list_append_unique)\n'}
+[0.179801] (mapcloud) StderrLine: {'line': b'  /opt/ros/rolling/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)\n'}
+[0.179884] (mapcloud) StderrLine: {'line': b'  CMakeLists.txt:3 (find_package)\n'}
+[0.179962] (mapcloud) StderrLine: {'line': b'\n'}
+[0.180039] (mapcloud) StderrLine: {'line': b'\x1b[0m\n'}
+[0.180323] (mapcloud) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.180523] (mapcloud) StderrLine: {'line': b'  No cmake_minimum_required command is present.  A line of code such as\n'}
+[0.180611] (mapcloud) StderrLine: {'line': b'\n'}
+[0.180745] (mapcloud) StderrLine: {'line': b'    cmake_minimum_required(VERSION 3.22)\n'}
+[0.180914] (mapcloud) StderrLine: {'line': b'\n'}
+[0.181044] (mapcloud) StderrLine: {'line': b'  should be added at the top of the file.  The version specified may be lower\n'}
+[0.181158] (mapcloud) StderrLine: {'line': b'  if you wish to support older CMake versions for this project.  For more\n'}
+[0.181248] (mapcloud) StderrLine: {'line': b'  information run "cmake --help-policy CMP0000".\n'}
+[0.181429] (mapcloud) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.181540] (mapcloud) StderrLine: {'line': b'\x1b[0m\n'}
+[0.181631] (camera) CommandEnded: {'returncode': 0}
+[0.181840] (mapcloud) StderrLine: {'line': b'gmake: *** [Makefile:267: cmake_check_build_system] Error 1\n'}
+[0.200298] (-) TimerEvent: {}
+[0.228158] (imodo) JobEnded: {'identifier': 'imodo', 'rc': 0}
+[0.228968] (mapcloud) CommandEnded: {'returncode': 2}
+[0.258206] (camera) JobEnded: {'identifier': 'camera', 'rc': 0}
+[0.300556] (-) TimerEvent: {}
+[0.301839] (mapcloud) JobEnded: {'identifier': 'mapcloud', 'rc': 2}
+[0.312403] (-) EventReactorShutdown: {}

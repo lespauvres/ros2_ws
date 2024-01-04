@@ -1,0 +1,18 @@
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CATKIN_INSTALL_INTO_PREFIX_ROOT
+
+[0m
+In file included from [01m[K/home/fishros/ros2_ws/src/mapcloud/src/mapcloud.cpp:4[m[K:
+[01m[K/opt/ros/rolling/include/cv_bridge/cv_bridge/cv_bridge.h:42:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include cv_bridge/cv_bridge.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   42 | #[01;35m[Kwarning[m[K This header is obsolete, please include cv_bridge/cv_bridge.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/fishros/ros2_ws/src/mapcloud/src/mapcloud.cpp:5[m[K:
+[01m[K/opt/ros/rolling/include/pcl_conversions/pcl_conversions.h:46:10:[m[K [01;31m[Kfatal error: [m[Kpcl/conversions.h: No such file or directory
+   46 | #include [01;31m[K<pcl/conversions.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/mapcloud_node.dir/build.make:76: CMakeFiles/mapcloud_node.dir/src/mapcloud.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mapcloud_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
