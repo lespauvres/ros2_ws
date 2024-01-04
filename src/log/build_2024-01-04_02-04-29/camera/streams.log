@@ -1,5 +1,0 @@
-[0.051s] Invoking command in '/home/fishros/ros2_ws/src/build/camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fishros/ros2_ws/src/build/camera -- -j20 -l20
-[0.079s] [35m[1mConsolidate compiler generated dependencies of target camera_display_node[0m
-[0.086s] [ 50%] [32mBuilding CXX object CMakeFiles/camera_display_node.dir/src/camera.cpp.o[0m
-[1.895s] [100%] [32m[1mLinking CXX executable camera_display_node[0m
-[2.168s] [100%] Built target camera_display_node

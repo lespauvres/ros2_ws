@@ -1,9 +1,0 @@
-/home/fishros/ros2_ws/build/imodo/CMakeFiles/uninstall.dir
-/home/fishros/ros2_ws/build/imodo/CMakeFiles/imodo_uninstall.dir
-/home/fishros/ros2_ws/build/imodo/CMakeFiles/test.dir
-/home/fishros/ros2_ws/build/imodo/CMakeFiles/edit_cache.dir
-/home/fishros/ros2_ws/build/imodo/CMakeFiles/rebuild_cache.dir
-/home/fishros/ros2_ws/build/imodo/CMakeFiles/list_install_components.dir
-/home/fishros/ros2_ws/build/imodo/CMakeFiles/install.dir
-/home/fishros/ros2_ws/build/imodo/CMakeFiles/install/local.dir
-/home/fishros/ros2_ws/build/imodo/CMakeFiles/install/strip.dir

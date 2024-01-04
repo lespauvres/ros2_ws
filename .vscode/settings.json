@@ -66,6 +66,5 @@
         "cinttypes": "cpp",
         "typeindex": "cpp",
         "typeinfo": "cpp"
-    },
-    "cmake.sourceDirectory": "/home/fishros/ros2_ws/src/odo"
+    }
 }

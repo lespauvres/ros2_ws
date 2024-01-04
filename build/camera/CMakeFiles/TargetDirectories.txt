@@ -1,6 +1,5 @@
 /home/fishros/ros2_ws/build/camera/CMakeFiles/uninstall.dir
 /home/fishros/ros2_ws/build/camera/CMakeFiles/camera_uninstall.dir
-/home/fishros/ros2_ws/build/camera/CMakeFiles/camera_display_node.dir
 /home/fishros/ros2_ws/build/camera/CMakeFiles/test.dir
 /home/fishros/ros2_ws/build/camera/CMakeFiles/edit_cache.dir
 /home/fishros/ros2_ws/build/camera/CMakeFiles/rebuild_cache.dir

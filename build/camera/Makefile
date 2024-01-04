@@ -197,43 +197,6 @@ camera_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/camera_uninstall.dir/build.make CMakeFiles/camera_uninstall.dir/build
 .PHONY : camera_uninstall/fast
 
-#=============================================================================
-# Target rules for targets named camera_display_node
-
-# Build rule for target.
-camera_display_node: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 camera_display_node
-.PHONY : camera_display_node
-
-# fast build rule for target.
-camera_display_node/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/camera_display_node.dir/build.make CMakeFiles/camera_display_node.dir/build
-.PHONY : camera_display_node/fast
-
-src/camera.o: src/camera.cpp.o
-.PHONY : src/camera.o
-
-# target to build an object file
-src/camera.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/camera_display_node.dir/build.make CMakeFiles/camera_display_node.dir/src/camera.cpp.o
-.PHONY : src/camera.cpp.o
-
-src/camera.i: src/camera.cpp.i
-.PHONY : src/camera.i
-
-# target to preprocess a source file
-src/camera.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/camera_display_node.dir/build.make CMakeFiles/camera_display_node.dir/src/camera.cpp.i
-.PHONY : src/camera.cpp.i
-
-src/camera.s: src/camera.cpp.s
-.PHONY : src/camera.s
-
-# target to generate assembly for a file
-src/camera.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/camera_display_node.dir/build.make CMakeFiles/camera_display_node.dir/src/camera.cpp.s
-.PHONY : src/camera.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -249,10 +212,6 @@ help:
 	@echo "... test"
 	@echo "... camera_uninstall"
 	@echo "... uninstall"
-	@echo "... camera_display_node"
-	@echo "... src/camera.o"
-	@echo "... src/camera.i"
-	@echo "... src/camera.s"
 .PHONY : help
 
 
